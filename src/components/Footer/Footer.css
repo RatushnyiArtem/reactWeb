@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'TIMES NEW';
+    src: url(../../fonts/times/TimesNow-Light.ttf)
+}
+@font-face {
+    font-family: 'PP NEUE MONTREAL B';
+    src: url(../../fonts/ppneue/ppneuemontreal-medium.otf);
+}
+.footer{
+    width: 100%;
+    min-width: 1440px;
+    height: 801px;
+    background: #C7A0F4;
+    padding: 40px 70px 40px 40px;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 130px;
+}
+.footer-top p{
+    font-family: 'PP NEUE MONTREAL B';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 22.8px;
+}
+.footer-top a{
+    text-decoration: none;
+    color: black;
+    font-family: 'PP NEUE MONTREAL B';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.8px;
+    display: flex;
+    align-items: center;
+}
+.footer-top a img{
+    margin-left: 10px;
+    width: 24px;
+    height: 24px;
+}
+.footer-vector{
+    margin-bottom: 125px;
+}
+.footer-content{
+    padding-right: 229px;
+    display: flex;  
+    justify-content: space-between;
+}
+.call-block h1:nth-child(1){
+    margin-bottom: 8px;
+}
+.call-block{
+    width: 377px;
+}
+.rating-block{
+    width: 449px;
+    display: flex;
+    text-transform: uppercase;
+    justify-content: space-between;
+    margin-bottom: 90px;
+}
+.call-block h1{
+    font-family: 'PP NEUE MONTREAL B';
+    font-weight: 500;
+    font-size: 32px; 
+    line-height: 38.4px;
+    text-transform: uppercase;
+}
+.rate-score{
+    width: 207px;
+    padding-left: 10px;
+}
+.rate-score p:nth-child(1){
+    font-family: 'PP NEUE MONTREAL B';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.88px;
+}
+.rate-score p:nth-child(2){
+    font-family: 'PP NEUE MONTREAL B';
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 57.6px;
+}
+.top-rate-names{
+    width: 188px;
+}
+.top-rate-names p:nth-child(1){
+    font-family: 'PP NEUE MONTREAL B';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 16.88px;
+}
+.top-rate-names p:nth-child(2){
+    font-family: 'PP NEUE MONTREAL B';
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 57.6px;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.footer-links .link:nth-child(1) p:nth-child(1){
+    margin-bottom: 4px;
+}
+.footer-links .link:nth-child(1) p{
+    font-family: 'TIMES NEW';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+.footer-links .link:nth-child(1) p span{
+    text-decoration: underline;
+}
+.footer-links .link:nth-child(2) p{
+    font-family: 'PP NEUE MONTREAL B';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.8px;
+}
+.top-rate-names p img{
+    width: 12px;
+    margin-right: 1.5px;
+    margin-bottom: 1.5px;
+}
+.top-rate-names p:nth-child(1){
+    display: flex;
+    align-items:center;
+}
+.footer-links .link:nth-child(2){
+    display: flex;
+    width: 668px;
+    justify-content: space-between;
+    
+}
+.footer-links .link:nth-child(2) p:nth-child(1){
+    word-spacing: 3px;
+}
+.footer-links .link:nth-child(1) p span{
+    cursor: pointer;
+}
+.top-rate-names p img:nth-child(1){
+    margin-left: 6px;
+}
